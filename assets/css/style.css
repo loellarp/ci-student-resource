@@ -10,4 +10,11 @@ body {
     font-family: "Archivo", sans-serif;
     font-weight: 400;
     letter-spacing: 0.8px;
+    color: #2c2f30;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    color: #212324;
 }
