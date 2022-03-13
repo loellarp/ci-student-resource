@@ -52,3 +52,14 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #212324;
 }
+
+/* Hero image */
+
+#hero-image {
+    height: 600px;
+    background: url("../images/hero-image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+}
