@@ -15,6 +15,40 @@ body {
 
 h1, h2 {
     font-family: "Roboto", sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #212324;
+}
+
+/* Header logo & menu*/
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 20px;
+}
+
+/* Top navigation links */
+
+#menu {
+    float: right;
+    font-size: 110%;
+}
+
+#menu, #logo {
+    line-height: 50px;
+}
+
+#menu > li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #212324;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #212324;
 }
