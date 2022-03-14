@@ -8,7 +8,7 @@
 
 body {
     font-family: "Archivo", sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; not changing weight, leave and investigate. Need to specify more to override settings in import? */
     letter-spacing: 0.8px;
     color: #2c2f30;
 }
@@ -23,8 +23,9 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
     margin-left: 20px;
+
+    font-size: 200%;
 }
 
 /* Top navigation links */
@@ -53,7 +54,27 @@ h1, h2 {
     border-bottom: 1px solid #212324;
 }
 
-/* Hero image */
+/* Hero image & text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+
+#hero-text, #hero-text h2 {
+    color: white;
+}
+
+#hero-text h2 {
+    font-size: 140%;
+}
+
+#hero-text h3 {
+    font-size: 110%;
+    padding-top: 10px;
+}
 
 #hero-image {
     height: 600px;
@@ -61,5 +82,26 @@ h1, h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    clear: both;
 }
+
+#hero-text {
+    font-family: "Roboto", sans-serif;
+    /* font-size: 120%; */
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    
+    width: 400px;
+    height: 250px;
+
+    padding: 30px 20px;
+
+    background-color: rgba(33, 35, 36, .7);
+    transform: translate(-50%, -50%);
+
+    top: 50%;
+    left: 50%;
+
+    position: absolute;
+}
+
