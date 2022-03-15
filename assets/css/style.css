@@ -93,7 +93,7 @@ h1, h2 {
     color: white;
     
     width: 400px;
-    height: 250px;
+    height: 200px;
 
     padding: 30px 20px;
 
@@ -128,14 +128,14 @@ h1, h2 {
     float: left;
     width: 50%;
     line-height: 22px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #right-about-heading {
     float: right;
     width: 50%;
     line-height: 22px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #left-about-heading p, #right-about-heading p {
