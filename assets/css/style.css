@@ -141,3 +141,8 @@ h1, h2 {
     margin: 0 auto;
     padding-top: 10px;
 }
+
+#about-headings-outer i {
+    font-size: 150%;
+    padding-bottom: 10px;
+}
