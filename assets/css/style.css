@@ -166,7 +166,8 @@ h1, h2 {
 #content-navigation-section h3 {
     text-align: center;
     font-size: 120%;
-    padding-top: 20px;
+    font-weight: bold;
+    padding: 20px 0 10px;
 }
 
 #module-navigation {
@@ -183,6 +184,9 @@ h1, h2 {
     font-size: 120%;
     min-width: 280px;
     border: 3px solid;
+    border-radius: 3px;
     padding: 5px 5px;
     margin: 5px 0;
 }
+
+#selected-module-navigation
