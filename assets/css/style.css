@@ -221,5 +221,14 @@ h1, h2 {
     border-style: solid;
     border-radius: 3px;
     padding: 5px 10px;
+}
+
+#topic-navigation a {
+    text-decoration: none;
+    color: #2c2f30;
     margin: 5px 0;
+}
+
+#topic-navigation a:hover {
+    background-color: #9BBAE8;
 }
