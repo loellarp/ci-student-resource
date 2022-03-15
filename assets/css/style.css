@@ -203,3 +203,23 @@ h1, h2 {
 .coming-soon {
     font-size: 80%;
 }
+
+#topic-navigation {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#topic-navigation div {
+    text-align: center;
+    font-size: 120%;
+    min-width: 280px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
