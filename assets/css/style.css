@@ -128,12 +128,14 @@ h1, h2 {
     float: left;
     width: 50%;
     line-height: 22px;
+    padding-bottom: 30px;
 }
 
 #right-about-heading {
     float: right;
     width: 50%;
     line-height: 22px;
+    padding-bottom: 30px;
 }
 
 #left-about-heading p, #right-about-heading p {
@@ -146,3 +148,18 @@ h1, h2 {
     font-size: 150%;
     padding-bottom: 10px;
 }
+
+/* Content navigation section */
+
+#content-navigation-section {
+    height: 400px;
+    background-color: rgba(33, 35, 36, .2);
+    clear: both;
+}
+
+#shortcuts-and-commands {
+    text-align: center;
+    font-size: 200%;
+    padding-top: 30px;
+}
+
