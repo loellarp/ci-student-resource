@@ -149,7 +149,7 @@ h1, h2 {
     padding-bottom: 10px;
 }
 
-/* Content navigation section */
+/* Mid-page content navigation */
 
 #content-navigation-section {
     height: 400px;
@@ -161,5 +161,11 @@ h1, h2 {
     text-align: center;
     font-size: 200%;
     padding-top: 30px;
+}
+
+#content-navigation-section h3 {
+    text-align: center;
+    font-size: 120%;
+    padding-top: 20px;
 }
 
