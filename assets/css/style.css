@@ -166,7 +166,6 @@ h1, h2 {
 #content-navigation-section h3 {
     text-align: center;
     font-size: 120%;
-    font-weight: bold;
     padding: 20px 0 10px;
 }
 
@@ -183,10 +182,20 @@ h1, h2 {
     text-align: center;
     font-size: 120%;
     min-width: 280px;
-    border: 3px solid;
+    border-width: 3px;
+    border-style: solid;
     border-radius: 3px;
-    padding: 5px 5px;
+    padding: 5px 10px;
     margin: 5px 0;
 }
 
-#selected-module-navigation
+#selected-module-navigation {
+    background-color: #9BBAE8;
+    border-color: #363636;
+}
+
+.disabeled-module-navigation {
+    background-color: #e6e6e6;
+    border-color: #949494;
+    color: #949494;
+}
