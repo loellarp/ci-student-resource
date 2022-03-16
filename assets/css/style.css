@@ -297,7 +297,7 @@ h1, h2 {
     padding-top: 20px;
 }
 
-#emmet-table {
+table {
     width: 100%;
     border: none;
     margin-bottom: 30px;
@@ -324,4 +324,11 @@ td {
 
 hr {
     border-top: 1px solid #212324;
+}
+
+#cli-table-section {
+    margin: 0 auto;
+    max-width: 800px;
+    clear: both;
+    padding-top: 20px;
 }
