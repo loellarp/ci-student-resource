@@ -398,13 +398,30 @@ hr {
 
 #contribute-section input[type=text], #contribute-section input[type=email] {
     width: 100%;
-    height: 25px;
+    height: 32px;
     margin: 5px 0 15px;
-    border: 3px solid #acc2e4;
     border-radius: 3px;
     background: rgba(255, 255, 255, .5);
 }
 
 #contribute-section input[type=text]:hover, #contribute-section input[type=email]:hover {
+    height: 26px;
     border: 3px solid #3373d3;
+}
+
+#contribute-section input[type=submit] {
+    display: block;
+    margin: 20px auto;
+    color: white;
+    background: #3373d3;
+    padding: 12px 24px;
+    border-radius: 3px;
+    font-size: 130%;
+}
+
+#contribute-section input[type=submit]:hover {
+    background: rgba(255, 255, 255, .5);
+    border: 3px solid #3373d3;
+    padding: 9px 21px;
+    color: #212324;
 }
