@@ -157,7 +157,7 @@ h1, h2 {
 
 #content-navigation-section {
     height: 320px; /* Can I use min-height here? */
-    background-color: rgba(33, 35, 36, .2);
+    background-color: #D3D3D3;
     clear: both;
 }
 
@@ -299,5 +299,24 @@ h1, h2 {
 
 #emmet-table {
     width: 100%;
+    border: none;
 }
 
+th, tr {
+    text-align: left;
+    line-height: 22px;
+}
+
+th {
+    line-height: 140%;
+    background-color: #D3D3D3;
+    padding: 3px 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+td {
+    padding: 3px 5px;
+}
