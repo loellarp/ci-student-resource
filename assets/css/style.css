@@ -266,7 +266,7 @@ h1, h2 {
 
 #emmet-introduction-content {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 840px;
     max-height: 200px;
 }
 
@@ -294,7 +294,7 @@ h1, h2 {
 
 #emmet-table-section {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 840px;
     clear: both;
     padding-top: 20px;
 }
@@ -341,16 +341,17 @@ hr {
     letter-spacing: 2px;
     color: #212324;
     margin-bottom: 10px;
+    padding-right: 20px;
 }
 
 #cli-section p {
     line-height: 22px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 #cli-introduction-content {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 840px;
     max-height: 200px;
 }
 
@@ -376,7 +377,7 @@ hr {
 
 #cli-table-section {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 840px;
     clear: both;
     padding-top: 20px;
 }
