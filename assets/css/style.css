@@ -236,3 +236,54 @@ h1, h2 {
 #topic-navigation a:hover {
     background-color: #9BBAE8;
 }
+
+/* Topic content section */
+
+#emmet-section {
+    min-height: 600px;
+}
+
+#emmet-section h2 {
+    text-align: center;
+    font-size: 200%;
+    margin: 35px 0;
+}
+
+#emmet-section h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: #212324;
+    margin-bottom: 10px;
+}
+
+#emmet-section p {
+    line-height: 22px;
+    padding-right: 10px;
+}
+
+#emmet-introduction-content {
+    margin: 0 auto;
+    max-width: 800px;
+    max-height: 200px;
+}
+
+#emmet-introduction-content div {
+    display: inline-block;
+}
+
+#emmet-text {
+    width: 40%;
+    min-height: 150px;
+    float: left;
+}
+
+#emmet-gif {
+    width: 60%;
+    min-height: 150px;
+    float: right;
+}
+
+#emmet-gif img {
+    max-width: 100%;
+}
