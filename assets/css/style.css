@@ -156,7 +156,7 @@ h1, h2 {
 /* Mid-page content navigation */
 
 #content-navigation-section {
-    height: 320px; /* Can I use min-height here? */
+    min-height: 320px; /* Can I use min-height here? */
     background-color: #D3D3D3;
     clear: both;
 }
@@ -446,4 +446,38 @@ hr {
 
 #contribute-section label[for=student-yes], #contribute-section label[for=student-no] {
     margin-left: 10px;
+}
+
+/* Get in touch footer */
+
+#get-in-touch {
+    height: 250px;
+    background-color: #3a3939;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#get-in-touch h2 {
+    color: whitesmoke;
+    font-size: 200%;
+    padding: 30px 0 15px;
+}
+
+#get-in-touch h3 {
+    line-height: 26px;
+}
+
+#get-in-touch h4 {
+    font-size: 120%;
+    padding: 15px 0 15px;
+}
+
+#get-in-touch li {
+    display: inline;
+}
+
+#get-in-touch i {
+    color: whitesmoke;
+    font-size: 200%;
+    padding: 0 43px;
 }
