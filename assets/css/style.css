@@ -106,6 +106,10 @@ h1, h2 {
     position: absolute;
 }
 
+#hero-text span {
+    color: #acc5eb;
+}
+
 /* About section */
 
 #about-section {
@@ -152,7 +156,7 @@ h1, h2 {
 /* Mid-page content navigation */
 
 #content-navigation-section {
-    height: 400px;
+    height: 320px; /* Can I use min-height here? */
     background-color: rgba(33, 35, 36, .2);
     clear: both;
 }
