@@ -381,3 +381,14 @@ hr {
     clear: both;
     padding-top: 20px;
 }
+
+/* Contribute form */
+
+#contribute-section {
+    height: 600px;
+    background-color: #acc2e4;
+}
+
+#contribute-section form {
+    
+}
