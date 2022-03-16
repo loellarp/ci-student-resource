@@ -115,7 +115,185 @@
     </section>
     <hr>
     <section id="cli-section">
-        CLI content
+        <div id="cli-introduction-content">
+            <div id="cli-text">
+                <h3>Command Line Interface</h3>
+                <p>
+                    The Command Line Interface, also called terminal and CLI for short, is a text-based interface used to execute operating system functions. The commands used in this module are for bash in Gitpod, which run on the Linux operating system.
+                </p>
+            </div>
+            <div id="cli-gif">
+                <img src="assets/images/cli.gif" alt="Command Line Interface syntax excecuted in Gitpod terminal">
+            </div>
+        </div>
+        <div id="cli-table-section">
+            <table id="cli-table">
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>“python3 -m http.server”</td>
+                    <td>Run web server to preview code (then click open browser)</td>
+                </tr>
+                <tr>
+                    <td>Command/Ctrl + c</td>
+                    <td>Stop web server when running</td>
+                </tr>
+                <tr>
+                    <td>“clear”</td>
+                    <td>Empty display in terminal</a></td>
+                </tr>
+                <tr>
+                    <td>“echo &lt;statement&gt;”</td>
+                    <td>Print statement in terminal</td>
+                </tr>
+                <tr>
+                    <td>“echo &lt;statement&gt; &lt;filename&gt;”</td>
+                    <td>Prints statement in file</td>
+                </tr>
+                <tr>
+                    <td>“history”</td>
+                    <td>List full history of commands in numbered order</td>
+                </tr>
+                <tr>
+                    <td>“!1”</td>
+                    <td>Run first command in history list</td>
+                </tr>
+                <tr>
+                    <td>“!2”</td>
+                    <td>Run second command in history list</td>
+                </tr>
+                <tr>
+                    <td>“pwd”</td>
+                    <td>Print working directory</td>
+                </tr>
+                <tr>
+                    <td>“ls”</td>
+                    <td>List all visible files in current directory</td>
+                </tr>
+                <tr>
+                    <td>“ls -la”</td>
+                    <td>List all files in current directory including hidden files</td>
+                </tr>
+                <tr>
+                    <td>“ls &lt;path&gt;”</td>
+                    <td>List all visible files in directory</td>
+                </tr>
+                <tr>
+                    <td>“cd”</td>
+                    <td>Change directory</td>
+                </tr>
+                <tr>
+                    <td>“cd ..”</td>
+                    <td>Change directory one level up</td>
+                </tr>
+                <tr>
+                    <td>“cd &lt;path&gt;”</td>
+                    <td>Change to directory</td>
+                </tr>
+                <tr>
+                    <td>“touch &lt;filename&gt;”</td>
+                    <td>Create file with stated file name</td>
+                </tr>
+                <tr>
+                    <td>“rm &lt;filename&gt;”</td>
+                    <td>Remove file</td>
+                </tr>
+                <tr>
+                    <td>“rm -rf &lt;dirname&gt;”</td>
+                    <td>Delete directory and all of its content (no undo!)</td>
+                </tr>
+                <tr>
+                    <td>“mkdir &lt;dirname&gt;”</td>
+                    <td>Create directory with stated directory name</td>
+                </tr>
+                <tr>
+                    <td>“cp &lt;filename&gt; &lt;destination&gt;”</td>
+                    <td>
+                        Copy file to stated destination. Using file name as destination duplicates file in current directory a gives it name stated as destination
+                    </td>
+                </tr>
+                <tr>
+                    <td>“mv &lt;filename&gt; &lt;destination&gt;”</td>
+                    <td>Move file to stated destination. Using file name as destination renames the file</td>
+                </tr>
+                <tr>
+                    <td>“cat &lt;filename&gt;”</td>
+                    <td>Print out contents of file to the terminal</td>
+                </tr>
+                <tr>
+                    <td>“diff &lt;filename&gt; &lt;filename&gt;”</td>
+                    <td>
+                        Print differences between two files
+                        <br>Result explanation:
+                        <br>- “a”: Add
+                        <br>- “c”: Change
+                        <br>- “d”: Delete
+                        <br>- No output: Both files are the same
+                        <br>Example results:
+                        <br>- 1d0: Line 1 in first file needs to be deleted to match line 0 in second empty file
+                        <br>-1c1: Line 1 in first file needs to be changed to match line 1 in second file
+                    </td>
+                </tr>
+                <tr>
+                    <td>“readlink -f &lt;filename&gt;”</td>
+                    <td>Print file path of stated file</td>
+                </tr>
+                <tr>
+                    <td>“nano &lt;filename&gt;”</td>
+                    <td>
+                        Open up file (or create a new one with stated name) in Nano text editor in the terminal
+                        <br>Step 2:
+                        <br>- command/Ctrl + x: Save file, then “y” to confirm, then enter to confirm file name
+                    </td>
+                </tr>
+                <tr>
+                    <td>“git status”</td>
+                    <td>Print status of repository</td>
+                </tr>
+                <tr>
+                    <td>“git add”</td>
+                    <td>Add to staging area</td>
+                </tr>
+                <tr>
+                    <td>“git add &lt;file name&gt;”</td>
+                    <td>Add stated file to staging area</td>
+                </tr>
+                <tr>
+                    <td>“git add &lt;directory&gt;”</td>
+                    <td>Add stated directory to staging area</td>
+                </tr>
+                <tr>
+                    <td>“git add .”</td>
+                    <td>Add all files in working directory to staging area</td>
+                </tr>
+                <tr>
+                    <td>“git commit -m &lt;commitmessage&gt;”</td>
+                    <td>Commit files & folders in staging area with stated commit message</td>
+                </tr>
+                <tr>
+                    <td>“git rm –cached &lt;filename&gt;”</td>
+                    <td>Remove stated file from staging area</td>
+                </tr>
+                <tr>
+                    <td>“git diff &lt;filename&gt;”</td>
+                    <td>Print difference between modified version of file and previous one as it exists in the git repository currently</td>
+                </tr>
+                <tr>
+                    <td>“git log”</td>
+                    <td>List commits that have been made in the repository with associated SHAs</td>
+                </tr>
+                <tr>
+                    <td>“git reset –hard &lt;first 6 numbers in commit SHA”&gt;</first></td>
+                    <td>Reset repository to stated commit</td>
+                </tr>
+                <tr>
+                    <td>“git push”</td>
+                    <td>Push files & folders in local repository to remote repository</td>
+                </tr>
+            </table>
+        </div>
     </section>
     <section>
         Contribution sign up

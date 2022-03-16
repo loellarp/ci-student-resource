@@ -240,7 +240,7 @@ h1, h2 {
 /* Topic content section */
 
 #emmet-section {
-    min-height: 600px;
+    min-height: 430px;
 }
 
 #emmet-section h2 {
@@ -300,6 +300,7 @@ h1, h2 {
 #emmet-table {
     width: 100%;
     border: none;
+    margin-bottom: 30px;
 }
 
 th, tr {
@@ -319,4 +320,8 @@ tr:nth-child(even) {
 
 td {
     padding: 3px 5px;
+}
+
+hr {
+    border-top: 1px solid #212324;
 }
