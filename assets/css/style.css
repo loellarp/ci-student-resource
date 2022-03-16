@@ -389,6 +389,15 @@ hr {
     background-color: #acc2e4;
 }
 
+#contribute-section p {
+    padding: 5px 0 15px;
+}
+
+#contribute-section h3 {
+    padding: 15px 0 15px;
+    font-size: 130%;
+}
+
 #contribute-section form {
     margin: 0 auto;
     max-width: 400px;
@@ -411,7 +420,7 @@ hr {
 
 #contribute-section input[type=submit] {
     display: block;
-    margin: 20px auto;
+    margin: 22px auto;
     color: white;
     background: #3373d3;
     padding: 12px 24px;
