@@ -239,6 +239,8 @@ h1, h2 {
 
 /* Topic content section */
 
+/* Emmet section */
+
 #emmet-section {
     min-height: 430px;
 }
@@ -300,7 +302,7 @@ h1, h2 {
 table {
     width: 100%;
     border: none;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 th, tr {
@@ -324,6 +326,52 @@ td {
 
 hr {
     border-top: 1px solid #212324;
+}
+
+/* Cli section */
+
+#cli-section {
+    min-height: 430px;
+    margin-top: 35px;
+}
+
+#cli-section h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: #212324;
+    margin-bottom: 10px;
+}
+
+#cli-section p {
+    line-height: 22px;
+    padding-right: 10px;
+}
+
+#cli-introduction-content {
+    margin: 0 auto;
+    max-width: 800px;
+    max-height: 200px;
+}
+
+#cli-introduction-content div {
+    display: inline-block;
+}
+
+#cli-text {
+    width: 40%;
+    min-height: 150px;
+    float: left;
+}
+
+#cli-gif {
+    width: 60%;
+    min-height: 150px;
+    float: right;
+}
+
+#cli-gif img {
+    width: 100%;
 }
 
 #cli-table-section {
