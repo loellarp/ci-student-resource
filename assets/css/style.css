@@ -14,7 +14,8 @@ body {
 
 /* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Roboto", sans-serif;
     letter-spacing: 2px;
     color: #212324;
@@ -23,7 +24,7 @@ h1, h2 {
 
 #logo {
     float: left;
-/* font-size not working */
+    /* font-size not working */
     font-size: 200%;
     margin-left: 20px;
 }
@@ -32,15 +33,16 @@ h1, h2 {
 
 #menu {
     float: right;
-/* font-size working */
+    /* font-size working */
     font-size: 110%;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 70px;
 }
 
-#menu > li {
+#menu>li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
@@ -64,7 +66,8 @@ h1, h2 {
     clear: both;
 }
 
-#hero-text, #hero-text h2 {
+#hero-text,
+#hero-text h2 {
     color: white;
 }
 
@@ -91,7 +94,7 @@ h1, h2 {
     text-align: center;
     letter-spacing: 2px;
     color: white;
-    
+
     width: 400px;
     height: 160px;
 
@@ -142,7 +145,8 @@ h1, h2 {
     padding-bottom: 20px;
 }
 
-#left-about-heading p, #right-about-heading p {
+#left-about-heading p,
+#right-about-heading p {
     width: 240px;
     margin: 0 auto;
     padding-top: 10px;
@@ -156,7 +160,8 @@ h1, h2 {
 /* Mid-page content navigation */
 
 #content-navigation-section {
-    min-height: 320px; /* Can I use min-height here? */
+    min-height: 320px;
+    /* Can I use min-height here? */
     background-color: #D3D3D3;
     clear: both;
 }
@@ -306,7 +311,8 @@ table {
     margin-bottom: 35px;
 }
 
-th, tr {
+th,
+tr {
     text-align: left;
     line-height: 22px;
 }
@@ -327,6 +333,7 @@ td {
 
 hr {
     border-top: 1px solid #212324;
+    margin: 20px 0;
 }
 
 /* Cli section */
@@ -410,7 +417,8 @@ hr {
     text-align: center;
 }
 
-#contribute-section input[type=text], #contribute-section input[type=email] {
+#contribute-section input[type=text],
+#contribute-section input[type=email] {
     width: 100%;
     height: 32px;
     margin: 5px 0 15px;
@@ -419,7 +427,8 @@ hr {
     text-indent: 10px;
 }
 
-#contribute-section input[type=text]:hover, #contribute-section input[type=email]:hover {
+#contribute-section input[type=text]:hover,
+#contribute-section input[type=email]:hover {
     height: 26px;
     border: 3px solid #3373d3;
 }
@@ -446,7 +455,8 @@ hr {
     margin-right: 10px;
 }
 
-#contribute-section label[for=student-yes], #contribute-section label[for=student-no] {
+#contribute-section label[for=student-yes],
+#contribute-section label[for=student-no] {
     margin-left: 10px;
 }
 
