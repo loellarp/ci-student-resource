@@ -643,6 +643,10 @@ hr {
         line-height: 60px;
     }
 
+    h2 {
+        font-size: 160%;
+    }
+
     #hero-outer {
         height: 390px;
     }
@@ -653,20 +657,23 @@ hr {
 
     #hero-text {
         width: 320px;
-        height: 140px;
+        height: 170px;
     
         top: 45%;
     } 
 
     #hero-text h2 {
-        font-size: 170%;
         padding: 0 10px;
     }
     
     #hero-text h3 {
-        font-size: 110%;
+        font-size: 115%;
         padding: 10px 20px 0;
         line-height: 140%;
+    }
+
+    #about-headings-outer h2 {
+        font-size: 130%;
     }
 
     table {
