@@ -563,6 +563,13 @@ hr {
     }
 }
 
+/* Screens 790px and below */
+@media (max-width: 779px) {
+    #content-navigation-section {
+        height: 437px;
+    }
+}
+
 /* Mobile screens 320 px wide and below */
 @media (max-width: 320px) {
     #logo {
