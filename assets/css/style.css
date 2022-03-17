@@ -259,7 +259,7 @@ header a {
 #emmet-section h2 {
     text-align: center;
     font-size: 200%;
-    margin: 35px 0;
+    margin: 35px 20px;
 }
 
 #emmet-section h3 {
@@ -482,6 +482,7 @@ hr {
 
 #get-in-touch h3 {
     line-height: 26px;
+    padding: 0 10px;
 }
 
 #get-in-touch h4 {
@@ -501,7 +502,14 @@ hr {
 
 /* Media queries */
 
-/* Mobile screens 320 px and below */
+/* Screens 1162px wide and below */
+@media (max-width: 1162px) {
+    #content-navigation-section {
+        height: 340px;
+    }
+}
+
+/* Mobile screens 320 px wide and below */
 @media (max-width: 320px) {
     #logo {
         float: none;
