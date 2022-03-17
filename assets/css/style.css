@@ -558,24 +558,8 @@ hr {
 /* Mobile screens 320 px wide and below */
 @media (max-width: 320px) {
     #logo {
-        float: none;
-        text-align: center;
         font-size: 160%;
-        margin-left: 0;
         line-height: 60px;
-    }
-
-    #menu {
-        float: none;
-        line-height: 35px;
-        font-size: 110%;
-        margin-bottom: 15px;
-    }
-
-    #menu>li {
-        float: none;
-        text-align: center;
-        margin-right: 0;
     }
 
     #hero-outer {
