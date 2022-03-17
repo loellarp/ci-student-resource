@@ -603,7 +603,22 @@ hr {
     } 
 }
 
-/* Screens 400 px wide and below */
+/* Screens 452px wide and below */
+@media screen and (max-width: 452px) {
+    h2 {
+        font-size: 180%;
+    }
+    
+    #contribute-section form {
+        margin: 0 20px;
+    }
+
+    #contribute-section h3 {
+        line-height: 26px;
+    }
+}
+
+/* Screens 400px wide and below */
 @media screen and (max-width: 400px) {
     table {
         font-size: 85%;
