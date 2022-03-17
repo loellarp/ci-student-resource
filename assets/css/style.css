@@ -509,6 +509,29 @@ hr {
     }
 }
 
+/* Screens 910px wide and below */
+@media (max-width: 910px) {
+    #emmet-introduction-content, #cli-introduction-content {
+        margin: 0 auto;
+        max-width: 590px;
+        max-height: 500px;
+    }
+    
+    #emmet-text, #emmet-gif, #cli-text, #cli-gif {
+        float: none;
+        width: 100%;
+    }
+
+    #emmet-text {
+        height: 130px;
+    }
+
+    #emmet-table-section, #cli-table-section {
+        max-width: 590px;
+    }
+}
+
+
 /* Mobile screens 320 px wide and below */
 @media (max-width: 320px) {
     #logo {
