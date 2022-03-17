@@ -416,6 +416,7 @@ hr {
     margin: 5px 0 15px;
     border-radius: 3px;
     background: rgba(255, 255, 255, .5);
+    text-indent: 10px;
 }
 
 #contribute-section input[type=text]:hover, #contribute-section input[type=email]:hover {
