@@ -570,6 +570,14 @@ hr {
     }
 }
 
+/* Screens 660px and below */
+@media (max-width: 660px) {
+    #emmet-introduction-content, #cli-introduction-content, #emmet-table-section, #cli-table-section {
+        margin: 0 20px;
+    }
+}
+
+
 /* Mobile screens 320 px wide and below */
 @media (max-width: 320px) {
     #logo {
