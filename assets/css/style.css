@@ -6,6 +6,15 @@
     border: none;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
     font-family: "Archivo", sans-serif;
     letter-spacing: 0.8px;
@@ -24,7 +33,6 @@ h2 {
 
 #logo {
     float: left;
-    /* font-size not working */
     font-size: 200%;
     margin-left: 20px;
 }
@@ -33,7 +41,6 @@ h2 {
 
 #menu {
     float: right;
-    /* font-size working */
     font-size: 110%;
 }
 
@@ -492,4 +499,32 @@ hr {
     color: whitesmoke;
     font-size: 200%;
     padding: 0 43px;
+}
+
+/* Media queries */
+
+@media (max-width: 320px) {
+    #logo {
+        float: none;
+        text-align: center;
+        font-size: 160%;
+        margin-left: 0;
+    }
+
+/* text-decoration none not working */
+    #logo>a {
+        text-decoration: none;
+    }
+
+    #menu {
+        float: none;
+        line-height: 40px;
+        font-size: 110%;
+    }
+
+    #menu>li {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
 }
