@@ -523,7 +523,7 @@ hr {
     }
 
     #emmet-text {
-        height: 130px;
+        min-height: 125px;
     }
 
     #emmet-table-section, #cli-table-section {
@@ -531,6 +531,29 @@ hr {
     }
 }
 
+/* Screens 880px wide and below */
+@media (max-width: 880px) {
+    #logo {
+        float: none;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 0;
+        line-height: 60px;
+    }
+
+    #menu {
+        float: none;
+        line-height: 35px;
+        font-size: 110%;
+        margin-bottom: 15px;
+    }
+
+    #menu>li {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+}
 
 /* Mobile screens 320 px wide and below */
 @media (max-width: 320px) {
