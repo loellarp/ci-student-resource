@@ -96,7 +96,6 @@ header a {
 
 #hero-text {
     font-family: "Roboto", sans-serif;
-    /* font-size: 120%; */
     text-align: center;
     letter-spacing: 2px;
     color: white;
@@ -502,6 +501,7 @@ hr {
 
 /* Media queries */
 
+/* Mobile screens 320 px and below */
 @media (max-width: 320px) {
     #logo {
         float: none;
@@ -522,5 +522,31 @@ hr {
         float: none;
         text-align: center;
         margin-right: 0;
+    }
+
+    #hero-outer {
+        height: 390px;
+    }
+
+    #hero-image {
+        height: 390px;
+    }
+
+    #hero-text {
+        width: 320px;
+        height: 140px;
+    
+        top: 45%;
+    } 
+
+    #hero-text h2 {
+        font-size: 170%;
+        padding: 0 10px;
+    }
+    
+    #hero-text h3 {
+        font-size: 110%;
+        padding: 10px 20px 0;
+        line-height: 140%;
     }
 }
