@@ -553,6 +553,20 @@ hr {
         text-align: center;
         margin-right: 0;
     }
+
+    #lets-do-this {
+        margin: 30px 0;
+    }
+
+    #about-section {
+        height: 365px;
+    }
+
+    #left-about-heading, #right-about-heading {
+        float: none;
+        margin: 0 auto;
+        min-width: 242px;
+    }
 }
 
 /* Mobile screens 320 px wide and below */
