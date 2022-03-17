@@ -616,6 +616,10 @@ hr {
         font-size: 180%;
     }
     
+    #hero-text {
+        width: 360px;
+    }
+
     #contribute-section form {
         margin: 0 20px;
     }
@@ -625,15 +629,15 @@ hr {
     }
 }
 
-/* Screens 400px wide and below */
-@media screen and (max-width: 400px) {
-    table {
-        font-size: 85%;
+/* Screens 420px wide and below */
+@media screen and (max-width: 420px) {
+    #about-headings-outer  {
+        width: 100%;
     }
 }
 
-/* Screens 320 px wide and below */
-@media screen and (max-width: 320px) {
+/* Screens 400px wide and below */
+@media screen and (max-width: 400px) {
     #logo {
         font-size: 160%;
         line-height: 60px;
@@ -663,5 +667,9 @@ hr {
         font-size: 110%;
         padding: 10px 20px 0;
         line-height: 140%;
+    }
+
+    table {
+        font-size: 85%;
     }
 }
