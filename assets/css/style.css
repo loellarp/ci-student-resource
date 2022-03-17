@@ -524,6 +524,10 @@ hr {
     #emmet-table-section, #cli-table-section {
         max-width: 590px;
     }
+
+    #col-1 {
+        width: 100px;
+    } 
 }
 
 /* Screens 880px wide and below */
@@ -596,9 +600,17 @@ hr {
 
     #emmet-table-section, #cli-table-section {
         padding-top: 10px;
+    } 
+}
+
+/* Screens 400 px wide and below */
+@media screen and (max-width: 400px) {
+    table {
+        font-size: 85%;
     }
 }
-/* Mobile screens 320 px wide and below */
+
+/* Screens 320 px wide and below */
 @media screen and (max-width: 320px) {
     #logo {
         font-size: 160%;

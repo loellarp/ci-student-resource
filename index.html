@@ -108,8 +108,8 @@
         <div id="emmet-table-section">
             <table>
                 <tr>
-                    <th>Syntax</th>
-                    <th>Description</th>
+                    <th id="col-1">Syntax</th>
+                    <th id="col-2">Description</th>
                 </tr>
                 <tr>
                     <td>“!” + tab key</td>
@@ -144,6 +144,10 @@
         </div>
         <div id="cli-table-section">
             <table>
+                <colgroup>
+                    <col id="col-1">
+                    <col>
+                </colgroup>
                 <tr>
                     <th>Command</th>
                     <th>Description</th>
@@ -286,7 +290,7 @@
                     <td>Add all files in working directory to staging area</td>
                 </tr>
                 <tr>
-                    <td>“git commit -m &lt;commitmessage&gt;”</td>
+                    <td>“git commit -m &lt;commitmsg&gt;”</td>
                     <td>Commit files & folders in staging area with stated commit message</td>
                 </tr>
                 <tr>
