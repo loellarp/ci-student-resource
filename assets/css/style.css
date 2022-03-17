@@ -672,11 +672,22 @@ hr {
         line-height: 140%;
     }
 
-    #about-headings-outer h2 {
+    #about-headings-outer h2, #emmet-section h3, #cli-section h3 {
         font-size: 130%;
+    }
+
+    #shortcuts-and-commands {
+        margin: 0 20px;
     }
 
     table {
         font-size: 85%;
     }
 }
+/* Screens 360px wide and below */
+/* @media screen and (max-width: 360px) {
+    #module-navigation div, #topic-navigation div {
+        min-width: 260;
+        font-size: 110%;
+    }
+} */
