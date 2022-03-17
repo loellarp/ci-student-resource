@@ -504,7 +504,7 @@ hr {
 }
 
 /* Screens 910px wide and below */
-@media (max-width: 910px) {
+@media screen and (max-width: 910px) {
     #emmet-introduction-content, #cli-introduction-content {
         margin: 0 auto;
         max-width: 590px;
@@ -517,7 +517,8 @@ hr {
     }
 
     #emmet-text {
-        min-height: 125px;
+        min-height: 105px;
+        padding-bottom: 20px;
     }
 
     #emmet-table-section, #cli-table-section {
@@ -526,7 +527,7 @@ hr {
 }
 
 /* Screens 880px wide and below */
-@media (max-width: 880px) {
+@media screen and (max-width: 880px) {
     #logo {
         float: none;
         text-align: center;
@@ -563,23 +564,42 @@ hr {
     }
 }
 
-/* Screens 790px and below */
-@media (max-width: 779px) {
+/* Screens 790px wide and below */
+@media screen and (max-width: 779px) {
     #content-navigation-section {
         height: 437px;
     }
 }
 
-/* Screens 660px and below */
-@media (max-width: 660px) {
+/* Screens 660px wide and below */
+@media screen and (max-width: 660px) {
     #emmet-introduction-content, #cli-introduction-content, #emmet-table-section, #cli-table-section {
         margin: 0 20px;
     }
 }
 
+/* Screens 545px wide and below */
+@media screen and (max-width: 545px) {    
+    #emmet-section {
+        min-height: 380px;
+    }
+    
+    #emmet-gif, #cli-gif {
+        height: 0;
+        min-height: 0;
+        width: 0;
+    }
 
+    #emmet-text {
+        padding-bottom: 0;
+    }
+
+    #emmet-table-section, #cli-table-section {
+        padding-top: 10px;
+    }
+}
 /* Mobile screens 320 px wide and below */
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     #logo {
         font-size: 160%;
         line-height: 60px;
