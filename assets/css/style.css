@@ -82,7 +82,7 @@ header a {
 }
 
 #hero-text h2 {
-    font-size: 200%;
+    font-size: 280%;
 }
 
 #hero-text h3 {
@@ -104,8 +104,8 @@ header a {
     letter-spacing: 2px;
     color: white;
 
-    width: 400px;
-    height: 160px;
+    width: 500px;
+    height: 200px;
 
     padding: 30px 20px;
 
@@ -608,6 +608,19 @@ hr {
     #emmet-table-section,
     #cli-table-section {
         margin: 0 20px;
+    }
+
+    #hero-text {
+        height: 160px;
+        width: 400px;
+    }
+
+    #hero-text h2 {
+        font-size: 200%;
+    }
+
+    #hero-text h3 {
+        font-size: 130%;
     }
 }
 
