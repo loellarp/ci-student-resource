@@ -522,15 +522,15 @@ hr {
         max-height: 500px;
     }
 
-    #emmet-text,
-    #emmet-gif,
-    #cli-text,
-    #cli-gif {
+    #emmet-text-outer,
+    #emmet-video-snippet-container,
+    #cli-text-outer,
+    #cli-video-snippet-container {
         float: none;
         width: 100%;
     }
 
-    #emmet-text {
+    #emmet-text-outer {
         min-height: 105px;
         padding-bottom: 20px;
     }
@@ -620,14 +620,14 @@ hr {
         min-height: 380px;
     }
 
-    #emmet-gif,
-    #cli-gif {
+    #emmet-video-snippet-container,
+    #cli-video-snippet-container {
         height: 0;
         min-height: 0;
         width: 0;
     }
 
-    #emmet-text {
+    #emmet-text-outer {
         padding-bottom: 0;
     }
 
