@@ -251,6 +251,10 @@ header a {
 
 /* Topic content section */
 
+.hyphen {
+    hyphens: auto;
+}
+
 /* Emmet section */
 
 #emmet-section {
