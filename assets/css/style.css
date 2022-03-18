@@ -276,7 +276,7 @@ header a {
 
 #emmet-section p {
     line-height: 22px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 
 #emmet-introduction-content {
@@ -289,25 +289,22 @@ header a {
     display: inline-block;
 }
 
-#emmet-text {
+#emmet-text-outer {
     width: 40%;
     min-height: 150px;
     float: left;
+    padding-right: 10px;
 }
 
-#emmet-gif {
+#emmet-video-snippet-container {
     width: 60%;
     min-height: 150px;
     float: right;
 }
 
-#emmet-gif video {
+#emmet-video-snippet-container video {
     max-width: 100%;
 }
-
-/* #emmet-gif img {
-    max-width: 100%;
-} */
 
 /* Emmet table */
 
@@ -367,7 +364,7 @@ hr {
 
 #cli-section p {
     line-height: 22px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 #cli-introduction-content {
@@ -380,25 +377,22 @@ hr {
     display: inline-block;
 }
 
-#cli-text {
+#cli-text-outer {
     width: 40%;
     min-height: 150px;
     float: left;
+    padding-right: 10px;
 }
 
-#cli-gif {
+#cli-video-snippet-container {
     width: 60%;
     min-height: 150px;
     float: right;
 }
 
-#cli-gif video {
+#cli-video-snippet-container video {
     width: 100%;
 }
-
-/* #cli-gif img {
-    width: 100%;
-} */
 
 #cli-table-section {
     margin: 0 auto;
