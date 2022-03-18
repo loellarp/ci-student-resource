@@ -689,9 +689,9 @@ hr {
     }
 }
 /* Screens 360px wide and below */
-/* @media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {
     #module-navigation div, #topic-navigation div {
-        min-width: 260;
+        padding: 5px 0;
         font-size: 110%;
     }
-} */
+}
