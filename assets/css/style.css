@@ -297,9 +297,13 @@ header a {
     float: right;
 }
 
-#emmet-gif img {
+#emmet-gif video {
     max-width: 100%;
 }
+
+/* #emmet-gif img {
+    max-width: 100%;
+} */
 
 /* Emmet table */
 
@@ -384,9 +388,13 @@ hr {
     float: right;
 }
 
-#cli-gif img {
+#cli-gif video {
     width: 100%;
 }
+
+/* #cli-gif img {
+    width: 100%;
+} */
 
 #cli-table-section {
     margin: 0 auto;
