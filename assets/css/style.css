@@ -648,7 +648,7 @@ hr {
     }
 
     h2 {
-        font-size: 160%;
+        font-size: 150%;
     }
 
     #hero-outer {
@@ -677,21 +677,23 @@ hr {
     }
 
     #about-headings-outer h2, #emmet-section h3, #cli-section h3 {
-        font-size: 130%;
+        font-size: 120%;
     }
 
     #shortcuts-and-commands {
         margin: 0 20px;
     }
 
+    #module-navigation div, #topic-navigation div {
+        padding: 5px 0;
+        font-size: 110%;
+    }
+
     table {
         font-size: 85%;
     }
-}
-/* Screens 360px wide and below */
-@media screen and (max-width: 360px) {
-    #module-navigation div, #topic-navigation div {
-        padding: 5px 0;
+
+    #get-in-touch h3 {
         font-size: 110%;
     }
 }
