@@ -558,13 +558,17 @@ hr {
     }
 
     #about-section {
-        height: 365px;
+        height: 385px;
     }
 
     #left-about-heading, #right-about-heading {
         float: none;
         margin: 0 auto;
         min-width: 242px;
+    }
+
+    #right-about-heading {
+        padding-top: 10px;
     }
 }
 
