@@ -81,8 +81,12 @@ header a {
     color: white;
 }
 
+#hero-text h2 {
+    font-size: 200%;
+}
+
 #hero-text h3 {
-    font-size: 130%;
+    font-size: 160%;
     padding-top: 10px;
 }
 
@@ -276,7 +280,7 @@ header a {
 
 #emmet-section p {
     line-height: 22px;
-    /* padding-right: 10px; */
+    padding-right: 10px;
 }
 
 #emmet-introduction-content {
@@ -293,7 +297,6 @@ header a {
     width: 40%;
     min-height: 150px;
     float: left;
-    padding-right: 10px;
 }
 
 #emmet-video-snippet-container {
@@ -364,7 +367,7 @@ hr {
 
 #cli-section p {
     line-height: 22px;
-    /* padding-right: 20px; */
+    padding-right: 20px;
 }
 
 #cli-introduction-content {
@@ -381,7 +384,6 @@ hr {
     width: 40%;
     min-height: 150px;
     float: left;
-    padding-right: 10px;
 }
 
 #cli-video-snippet-container {
