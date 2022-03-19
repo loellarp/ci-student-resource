@@ -612,15 +612,15 @@ hr {
 
     #hero-text {
         height: 160px;
-        width: 400px;
+        width: 384px;
     }
 
     #hero-text h2 {
-        font-size: 200%;
+        font-size: 220%;
     }
 
     #hero-text h3 {
-        font-size: 130%;
+        font-size: 140%;
     }
 }
 
