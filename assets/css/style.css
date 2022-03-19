@@ -730,7 +730,7 @@ hr {
     }
 
     h2 {
-        font-size: 150%;
+        font-size: 160%;
     }
 
     #hero-outer {
@@ -753,7 +753,13 @@ hr {
     }
 
     #about-section {
-        height:392;
+        height: 392px;
+    }
+
+    #about-section > h2 {
+        display: block;
+        margin-top: 40px;
+        padding: 0 10px;
     }
 
     #about-headings-outer h2,
@@ -778,5 +784,11 @@ hr {
 
     #get-in-touch h3 {
         font-size: 110%;
+    }
+
+    /* Screens 355px wide and below */
+@media screen and (max-width: 355px) {
+    #get-in-touch i {
+        padding: 0 20px;
     }
 }
