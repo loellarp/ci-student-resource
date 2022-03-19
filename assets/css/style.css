@@ -87,7 +87,7 @@ header a {
 
 #hero-text h3 {
     padding-top: 10px;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 #hero-image {
@@ -652,9 +652,9 @@ hr {
         font-size: 220%;
     }
 
-    #hero-text h3 {
+    /* #hero-text h3 {
         font-size: 140%;
-    }
+    } */
 }
 
 /* Screens 592px wide and below */
