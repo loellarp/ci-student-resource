@@ -571,6 +571,9 @@ hr {
 
 /* Screens 910px wide and below */
 @media screen and (max-width: 910px) {
+    #module-header-wrapper div {
+        max-width: 590px;
+    }
 
     #emmet-introduction-content,
     #cli-introduction-content {
@@ -679,6 +682,14 @@ hr {
     /* #hero-text h3 {
         font-size: 140%;
     } */
+}
+
+/* Screens 632px wide and below */
+@media screen and (max-width: 632px) {
+    #module-header-wrapper div {
+        margin: 30px 20px 0;
+        max-width: none;
+    }
 }
 
 /* Screens 592px wide and below */
