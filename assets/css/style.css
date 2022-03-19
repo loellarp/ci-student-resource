@@ -307,19 +307,19 @@ header a {
         width: 100%;
         border-bottom: 4px solid #9BBAE8;
         border-top: none;
-        margin: 7px auto 0;
+        margin: 8px auto 0;
     }
 
     .grey-horizontal-line {
         width: 100%;
         border-bottom: 2px solid #212324;
-        margin: 0 auto 30px;
+        margin: 0 auto 35px;
     }
 
 /* Emmet section */
 
 #emmet-section {
-    min-height: 430px;
+    min-height: 355px;
 }
 
 #emmet-section h2 {
@@ -403,7 +403,8 @@ td {
 
 hr {
     border-top: 1px solid #212324;
-    margin: 20px 0;
+    margin: 20px auto;
+    max-width: 840px;
 }
 
 /* Cli section */
