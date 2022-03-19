@@ -597,7 +597,7 @@ hr {
     }
 
     #emmet-text-outer p,
-    #cli-text-outer p, {
+    #cli-text-outer p {
         padding-right: 0;
     }
 
@@ -834,3 +834,4 @@ hr {
             padding: 0 20px;
         }
     }
+}
