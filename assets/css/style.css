@@ -470,6 +470,7 @@ hr {
 
 #contribute-section p {
     padding: 5px 0 15px;
+    line-height: 22px;
 }
 
 #contribute-section h3 {
@@ -482,6 +483,10 @@ hr {
     max-width: 400px;
     padding: 30px 0;
     text-align: center;
+}
+
+#contribute-section label {
+    line-height: 22px;
 }
 
 #contribute-section input[type=text],
