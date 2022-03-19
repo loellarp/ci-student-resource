@@ -148,7 +148,7 @@ header a {
 }
 
 .blue {
-    color:#acc5eb;
+    color: #acc5eb;
 }
 
 #hero-h3 {
@@ -293,28 +293,28 @@ header a {
 }
 
 /* Module header */
-    #module-header-wrapper {
-        width: 100%;
-    }
+#module-header-wrapper {
+    width: 100%;
+}
 
-    #module-header-wrapper div {
-        max-width: 840px;
-        margin: 30px auto 0;
-        text-align: center;
-    }
+#module-header-wrapper div {
+    max-width: 840px;
+    margin: 30px auto 0;
+    text-align: center;
+}
 
-    .blue-horizontal-line {
-        width: 100%;
-        border-bottom: 4px solid #9BBAE8;
-        border-top: none;
-        margin: 8px auto 0;
-    }
+.blue-horizontal-line {
+    width: 100%;
+    border-bottom: 4px solid #9BBAE8;
+    border-top: none;
+    margin: 8px auto 0;
+}
 
-    .grey-horizontal-line {
-        width: 100%;
-        border-bottom: 2px solid #212324;
-        margin: 0 auto 35px;
-    }
+.grey-horizontal-line {
+    width: 100%;
+    border-bottom: 2px solid #212324;
+    margin: 0 auto 35px;
+}
 
 /* Emmet section */
 
@@ -596,7 +596,8 @@ hr {
         padding-bottom: 20px;
     }
 
-    #emmet-text-outer p, #cli-text-outer p, {
+    #emmet-text-outer p,
+    #cli-text-outer p, {
         padding-right: 0;
     }
 
@@ -608,6 +609,7 @@ hr {
     hr {
         max-width: 590px;
     }
+
     /* Column with first column in table */
     #col-1 {
         width: 100px;
@@ -787,7 +789,7 @@ hr {
 
         top: 45%;
     }
- 
+
     #hero-text h2 {
         font-size: 170%;
     }
@@ -796,7 +798,7 @@ hr {
         height: 392px;
     }
 
-    #about-section > h2 {
+    #about-section>h2 {
         display: block;
         margin-top: 40px;
         padding: 0 10px;
@@ -827,8 +829,8 @@ hr {
     }
 
     /* Screens 355px wide and below */
-@media screen and (max-width: 355px) {
-    #get-in-touch i {
-        padding: 0 20px;
+    @media screen and (max-width: 355px) {
+        #get-in-touch i {
+            padding: 0 20px;
+        }
     }
-}
