@@ -82,11 +82,11 @@ header a {
 }
 
 #hero-text h2 {
-    font-size: 280%;
+    font-size: 275%;
 }
 
 #hero-text h3 {
-    font-size: 160%;
+    font-size: 175%;
     padding-top: 10px;
 }
 
@@ -104,7 +104,7 @@ header a {
     letter-spacing: 2px;
     color: white;
 
-    width: 500px;
+    width: 490px;
     height: 200px;
 
     padding: 30px 20px;
@@ -702,19 +702,23 @@ hr {
 
     #hero-text {
         width: 320px;
-        height: 210px;
+        height: 162px;
 
         top: 45%;
     }
 
     #hero-text h2 {
-        padding: 0 10px;
+        font-size: 190%;
     }
 
     #hero-text h3 {
-        font-size: 115%;
-        padding: 10px 20px 0;
+        font-size: 130%;
+        padding: 10px 0 0;
         line-height: 140%;
+    }
+
+    #about-section {
+        height:392;
     }
 
     #about-headings-outer h2,
