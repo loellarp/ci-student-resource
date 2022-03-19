@@ -292,6 +292,30 @@ header a {
     hyphens: auto;
 }
 
+/* Module header */
+    #module-header-wrapper {
+        width: 100%;
+    }
+
+    #module-header-wrapper div {
+        max-width: 840px;
+        margin: 30px auto 0;
+        text-align: center;
+    }
+
+    .blue-horizontal-line {
+        width: 100%;
+        border-bottom: 4px solid #9BBAE8;
+        border-top: none;
+        margin: 7px auto 0;
+    }
+
+    .grey-horizontal-line {
+        width: 100%;
+        border-bottom: 2px solid #212324;
+        margin: 0 auto 30px;
+    }
+
 /* Emmet section */
 
 #emmet-section {
