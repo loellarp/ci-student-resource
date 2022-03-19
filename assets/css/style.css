@@ -611,7 +611,7 @@ hr {
     }
 
     #hero-text {
-        height: 160px;
+        height: auto;
         width: 384px;
     }
 
