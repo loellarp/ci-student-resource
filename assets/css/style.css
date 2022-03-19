@@ -641,7 +641,8 @@ hr {
     #cli-video-snippet-container {
         height: 0;
         min-height: 0;
-        width: 0;
+        width: 100%;
+        padding-top: 10px;
     }
 
     #emmet-text-outer {
@@ -692,7 +693,7 @@ hr {
     }
 
     #hero-outer {
-        height: 390px;
+        height: 380px;
     }
 
     #hero-image {
@@ -701,7 +702,7 @@ hr {
 
     #hero-text {
         width: 320px;
-        height: 170px;
+        height: 210px;
 
         top: 45%;
     }
