@@ -1,108 +1,199 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CI Student Resource
 
-Welcome loellarp,
+The CI Student Resource website is a student-powered one-page website targeted towards Code Institute students looking for an easy overview of useful content covered in the program Diploma in Full Stack Development. The content of the website is intended to be a go to reference to use while learning the essentials of coding. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This first iteration of the website focuses on **Shortcuts & Commands** in the IDE and Deployment Essentials module while leaving hints for future content inclusions. This is done through the disabled module navigation buttons in the mid-page Topics navigation section with a *Coming soon!* text added for clarity.  
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+CI Student Resource is also intended to engage other students as content providers through the **Contribute to this website** form and as collaborators in the *Get in touch* footer.
 
-## Gitpod Reminders
+The **3 main objectives** of this website can be summarized as followed:
+1. Serve useful course content in a user-friendly, structured and compact format
+2. Attract fellow students and alumni as content providers of the website
+3. Attract fellow students and alumni as collaborators of the website
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Responsive view of CL Stundent Resource from ami.responsivedesign.is](assets/images/readme/ci-student-resource-responsive.png)
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
+- **Top Navigation**
+  - Featured at the top of the page is the header with the logo and a responsive navigation bar that floats to the left on wider screens and stacks below the header on smaller screens. The navigation bar links to the sections Shortcuts & Commands, Contribute and Get in touch, focusing on the 3 main objectives of the website.
 
-Another blue button should appear to click: _Open Browser_.
+  - Top Navigation - Desktop:
+    ![Top Navigation on Desktop](assets/images/readme/header-desktop.png)
+  
+  - Top Navigation - Mobile:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    <img src="assets/images/readme/header-mobile.png" alt="Top navigation on mobile" width="200"/>
 
-A blue button should appear to click: _Make Public_,
+- **Landing-Page Image & Text Overlay**
+  - The landing page introduces users to the website through an image and a text overlay that communicates the main user objective and tone of the website
 
-Another blue button should appear to click: _Open Browser_.
+  - Landing Page Image & Text Overlay - Desktop:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    <img src="assets/images/readme/landing-page-image-desktop.png" alt="Landing-page image and text overlay on desktop" width="600"/>
 
-To log into the Heroku toolbelt CLI:
+  - Landing Page Image & Text Overlay - Mobile:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    <img src="assets/images/readme/landing-page-image-mobile.png" alt="Landing-page image and text overlay on mobile" width="200"/>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- **About Section**
+  - The about sections includes further information about the value of CI Student Resource with an inciting tagline of “Let’s do this together”, and focusing on the website being Student-Powered and keeping All in One Place
 
-------
+  - About Section - Website:
 
-## Release History
+    <img src="assets/images/readme/about-section-desktop.png" alt="About section on desktop" width="600"/>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - About Section - Mobile:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    <img src="assets/images/readme/about-section-mobile.png" alt="About section on mobile" width="200"/>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- **Mid-page Content Navigation**
+  - The mid-page content navigation section gives the user an overview of the content of the website as well an indications of the coming growth of the website with content coming soon
+  - The mid-page content navigation section is divided in Modules and Topics with only one module being available at the moment. Topic boxes include navigation links that takes the users to the relevant sections of the page
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - Mid-page Content Navigation - Desktop:
+    
+    <img src="assets/images/readme/shortcuts-and-commands.png" alt="Mid-page content navigation on desktop" width="600"/>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - Mid-page Content Navigation - Mobile: 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    <img src="assets/images/readme/shortcuts-and-commands-mobile.png" alt="Mid-page content navigation on mobile" width="200"/>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- **Module Content Header**
+  - The Module Content Header introduces the users to topic content following the Module Content Header
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  - Module Content Header - Desktop:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    <img src="assets/images/readme/module-content-header-desktop.png" alt="Module content header on desktop" width="600"/> 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - Module Content Header - Mobile
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    <img src="assets/images/readme/module-content-header-mobile.png" alt="Module content header on mobile" width="200"/>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- **Emmet Extension Content Section**
+  - The first topic of this website is for the Emmet Extension and includes one short introduction text, a looping and muted video snippet of the tool in use as well a table with the syntax explored in the module and their associated description.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - Emmet Extension Content Section - Desktop:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    <img src="assets/images/readme/emmet-desktop.png" alt="Emmet content section on desktop" width="600"/> 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - Emmet Extension Content Section - Mobile:
 
-------
+    <img src="assets/images/readme/emmet-mobile.png" alt="Emmet content section on desktop on mobile" width="200"/>
 
-## FAQ about the uptime script
+- **Command Line Interface Content Section**
+  - The content of the Command Line Interface Content Section includes the same content structure as the one for the Emmet Extension, with a text introduction, a video snippet and a table with commands and descriptions
 
-**Why have you added this script?**
+  - Command Line Interface Content Section - Desktop:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    <img src="assets/images/readme/cli-desktop.png" alt="Cli content section on desktop" width="600"/> 
 
-**How will this affect me?**
+  - Command Line Interface Content Section - Mobile:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    <img src="assets/images/readme/cli-mobile.png" alt="Cli content section on desktop on mobile" width="200"/>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- **Contribute Sign Up**
+   - This section entourages users to contribute to the website with a sign up form where the user can specify what module(s) and topic(s) they want to contribute. The form also includes a input field for the user to specify if the are/have been a student of the focus program of this website, Code Institute’s Diploma in Full Stack Development
+   - All fields are required to submit the form and the email input must be of a valid format
+   - The form input data is not linked to any destination in this iteration of the website so a Method attribute has not been specified 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+   - Contribute Section - Desktop:
 
-**So….?**
+     <img src="assets/images/readme/contribute-desktop.png" alt="Sign up form for contributing to the ccontent desktop" width="600"/> 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+   - Contribute Section - Mobile:
 
-**Can I opt out?**
+     <img src="assets/images/readme/contribute-mobile.png" alt="Sign up form for contributing to the ccontent on mobile" width="200"/>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- **Get in touch Section**
+   - This section encourages User Collaboration and to get in touch users have questions
+   - An Email Address has been included without mailto tags to avoid the that user computers opens up local email agents when clicked
+   - Social Media Icons & Links have been included at the end of the Get in Touch Section and all opens up in a new tab
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+   - Get in Touch Section - Desktop:
 
-**Anything more?**
+     <img src="assets/images/readme/getintouch-desktop.png" alt="Get in touch section in footer with email and social media icons and links opening in a new tab on desktop" width="600"/> 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+   - Get in Touch Section - Mobile:
 
----
+     <img src="assets/images/readme/contribute-mobile.png" alt="Get in touch section in footer with email and social media icons and links opening in a new tab on desktop"  width="200"/>
 
-Happy coding!
+**Features Left to Implement for Future Iterations**
+- Full Lecture Overview (category tree) as an expanding Module tree down to lecture level. 
+- Expanded content formats sorted by module and topic. This could include Lecture Slides, Formatted Transcripts, CI Recommended Resources, and Student Recommended Resources for each section.
+- Expanding burger menu on mobile screens
+- Improved design of overlaying text on landing page image
+
+## Testing
+
+- CI Student Resource has been tested to work on the Chrome, Firefox, Safari and Edge browsers on desktop as well as the Safari and Chrome browsers on iOS mobile.  
+- I have used Chrome DevTools to confirm that the website and layout is responsive and functions as it should on all common and standard screen sizes.
+- I have tested if all external and internal links are linked correctly and behave as expected in all tested browsers and on both desktop and mobile.
+- I texted the behavior of form in all browsers and on both desktop and mobile to confirm that all fields are required and only accept a valid email address in the email input field.
+- I have also tested CI Student Resourse through three external Validations Tools:
+  - The [W3C Markup Validation Service](https://validator.w3.org/) checked the validation of the html code and returned one error and a warning related to a duplicate ID in the code:
+   - <img src="assets/images/readme/html-validation-1.png" alt="Results from the first html validations" width="400"/>
+  - After removing the duplicate ID from the code and re-running validation, no issues were found:
+   - <img src="assets/images/readme/html-validation-2.png" alt="Results from the second html validations" width="400"/>
+  - The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) checked the validation of the CSS code and returned two parse errors: 
+   - <img src="assets/images/readme/css-validation-1.png" alt="Results from the first css validations" width="400"/>
+  - After fixing these two issues in the code and re-running no errors were returned:
+   - <img src="assets/images/readme/css-validation-2.png" alt="Results from the second css validations" width="400"/>
+  - [Lighthouse in DevTools](https://developers.google.com/web/tools/lighthouse) an tests on the website for both desktop and mobile and scored them on a scale 1-100 in the categories Performance, Accessibility, Best Practices and SEO and returned good results for the latter three categories but scored at a 78 on Performance on mobile:
+   - <img src="assets/images/readme/lighthouse-report-1.png" alt="Results from the lighthouse test on mobile" width="400"/>
+    This was reported to partly be caused by the use of file in git-format of the website:
+   - <img src="assets/images/readme/lighthouse-report-1-detail.png" alt="Results from the lighthouse test on mobile" width="400"/> 
+   - After reformatting the video content and switching the gifs out for webm and mp4 the loading of the videos were greatly improved but did only more the performance score up to 80:
+   - <img src="assets/images/readme/lighthouse-report-1.png" alt="Results from the lighthouse test on mobile" width="400">
+
+### Unresolved bugs
+   - During testing of the website on desktop I found an issue with the navigation links not behaving as expected. After clicking a first navigation link and then scrolling back up to the navigation and clicking a second navigation link, the user is not taken to the intended section. The page instead flickers and lands in the wrong area. Clicking the same link again returns the expected behavior and takes the user t the correct location of the page. No solution to this bug has been found so this issue has been left unresolved. 
+
+## Deployment
+   - CI Student Resource website was deployed on GitHub pages following the steps below:
+     - In the GitHub repository for the project, locate and click on Settings
+     - In the left navigation bar, locate and click on Pages
+     - Under Sourse, change Branch to Main and click Save
+     - This will load a message above the Source, letting you know when the website has been published including a link your your website on Pages
+
+***[Here's a live lik to the website](https://loellarp.github.io/ci-student-resource/index.html)***
+
+## Credit
+
+- Mocks
+  - Initial mocks of the website design on desktop and mobile were created with Balsamic
+- Text content
+  - All content in the topic tables used on the website has been collected from Lecture Slides and Lecture Transcripts from [Code Institute’s](https://codeinstitute.net/se/) program Diploma in Full Stack Software Development
+  - Information for the topic introduction text has been collected from the same Lecture Slides and Lecture Transcripts as well as from wikipedia and the official website of the [Emmet Extension](https://emmet.io/) 
+- The image used as a Landing Page Image was was taken from this [link on the Unsplash[(https://unsplash.com/photos/IgUR1iX0mqM)] Website and is free to use under the Unsplash License
+- The image used as a Landing Page Image was was taken from this link on the Unsplash Website and is free to use under the Unsplash License
+- Icons used on CI Student Resource has been taken from the free library at [Font Awesome](https://fontawesome.com/icons)
+- The fonts Archivo and Roboto use on this website has been taken from [Google Fonts](https://fonts.google.com/)
+- Videos 
+ - Videos were captured with screen recording using Quicktime for Mac, while demonstrating the tools on screen in the text editor and bash editor on Gitpod
+ - [Creative Cloud Express](https://www.adobe.com/express/) was used for cropping and resizing videos
+ - [Cloudconvert](https://cloudconvert.com/) was used to convert videos from mp4-format to webm-format
+
+## Code
+- Header
+  - The HTML structure and part of the css solution was taken from [Love Running](https://loellarp.github.io/love-running/index.html#) while the solution for positioning the floats was taken from [this article](http://nambiara.blogspot.com/2010/10/float-right-without-changing-order.html)
+- Landing Page Image & Text Overlay
+  - Parts of this solution was taken from Love Running while code on positioning was found in [this W3 tutorial]
+- About Section
+  - Part of this solution was taken from Love Running while part from [w3 tutorials](https://www.w3schools.com/cssref/pr_class_float.asp) and examples on uses of float
+- Content Navigation Section
+  - This section was built on the basics of Responsive CSS & Flexbox in Udemy’s course The Web Developer Bootcamp and this [Stack Overflow link](https://stackoverflow.com/questions/20626685/better-way-to-set-distance-between-flexbox-items)
+- The white right side margin initially appearing in responsive mobile view in DevTools was removed through this [Stack Overflow link](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
+- Embedded video content
+  - The code for mimicking gif behavior on mp4 and webM with loop, autoplay, muted and playsinline was taken from [this link](https://web.dev/efficient-animated-content/) 
+- Tables
+  - Styling syntax was found in these [W3 tutorials](https://www.w3schools.com/css/css_table.asp)
+  - The hyphens syntax was found in [this link](https://css-tricks.com/almanac/properties/h/hyphenate/)
+  - The syntax on colgroup for adjusting column with was found in these [W3 tutorials] https://www.w3schools.com/tags/tag_colgroup.asp
+Form
+  - Part of the solution for wrapping and positioning the form as well as adjusting background color and opacity was taken from Love Running 
+  - The syntax for text-indent was [found here](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent)
+  - The syntax for the :hover selector was found on [W3schools](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent)
+Social Media Icons
+  - Code for this section was taken from Love Running
