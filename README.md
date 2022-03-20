@@ -1,5 +1,7 @@
 # CI Student Resource
 
+![Responsive view of CL Stundent Resource from ami.responsivedesign.is](assets/images/readme/ci-student-resource-responsive.png)
+
 The CI Student Resource website is a student-powered one-page website targeted towards Code Institute students looking for an easy overview of useful content covered in the program Diploma in Full Stack Development. The content of the website is intended to be a go to reference to use while learning the essentials of coding. 
 
 This first iteration of the website focuses on **Shortcuts & Commands** in the IDE and Deployment Essentials module while leaving hints for future content inclusions. This is done through the disabled module navigation buttons in the mid-page Topics navigation section with a *Coming soon!* text added for clarity.  
@@ -11,115 +13,144 @@ The **3 main objectives** of this website can be summarized as followed:
 2. Attract fellow students and alumni as content providers of the website
 3. Attract fellow students and alumni as collaborators of the website
 
-![Responsive view of CL Stundent Resource from ami.responsivedesign.is](assets/images/readme/ci-student-resource-responsive.png)
+### [Here's a live link to the website](https://loellarp.github.io/ci-student-resource/index.html)
+
+## UX
+
+### Wireframes
+
+I used Balsamiq Wireframes to create the wireframes.
+
+![Wireframes for CI Student Resource for desktop and mobile](assets/images/readme/wireframes.png)
+
+### Surface
+
+#### Colors
+
+The main colors used in this project:
+- Background colors: #D3D3D3, #acc2e4, #e6e6e6
+- Font colors: #212324, #2c2f30, #acc5eb, white
+- Form input borders on hover: #3373d3
+- Sign up button backgrounds: #3373d3, #212324 (on hover)
+- Signup button borders: #3373d3 (on hover)
+
+### Fonts
+
+- The main fonts used in this project was Roboto and Archivo with sans-serif as backup font
+
+### Images & Video Snippets
+
+- I used an image from [Unsplash.com](https://unsplash.com/) as a hero image which is credited in the credit section
+- The video snippets I created myself and the tools used for this are credited in the credit section
 
 ## Features
 
 ### Existing Features
-- **Top Navigation**
-  - Featured at the top of the page is the header with the logo and a responsive navigation bar that floats to the left on wider screens and stacks below the header on smaller screens. The navigation bar links to the sections Shortcuts & Commands, Contribute and Get in touch, focusing on the 3 main objectives of the website.
 
-  - Top Navigation - Desktop:
-    ![Top Navigation on Desktop](assets/images/readme/header-desktop.png)
+#### Top Navigation
+- Featured at the top of the page is the header with the logo and a responsive navigation bar that floats to the left on wider screens and stacks below the header on smaller screens. The navigation bar links to the sections Shortcuts & Commands, Contribute and Get in touch, focusing on the 3 main objectives of the website.
+
+- Top Navigation - Desktop:
+  ![Top Navigation on Desktop](assets/images/readme/header-desktop.png)
   
-  - Top Navigation - Mobile:
+- Top Navigation - Mobile:
 
-    <img src="assets/images/readme/header-mobile.png" alt="Top navigation on mobile" width="200"/>
+  <img src="assets/images/readme/header-mobile.png" alt="Top navigation on mobile" width="200"/>
 
-- **Landing-Page Image & Text Overlay**
-  - The landing page introduces users to the website through an image and a text overlay that communicates the main user objective and tone of the website
+#### Landing-Page Image & Text Overlay
+- The landing page introduces users to the website through an image and a text overlay that communicates the main user objective and tone of the website
 
-  - Landing Page Image & Text Overlay - Desktop:
+- Landing Page Image & Text Overlay - Desktop:
 
-    <img src="assets/images/readme/landing-page-image-desktop.png" alt="Landing-page image and text overlay on desktop" width="600"/>
+  <img src="assets/images/readme/landing-page-image-desktop.png" alt="Landing-page image and text overlay on desktop" width="600"/>
 
-  - Landing Page Image & Text Overlay - Mobile:
+- Landing Page Image & Text Overlay - Mobile:
 
-    <img src="assets/images/readme/landing-page-image-mobile.png" alt="Landing-page image and text overlay on mobile" width="200"/>
+  <img src="assets/images/readme/landing-page-image-mobile.png" alt="Landing-page image and text overlay on mobile" width="200"/>
 
-- **About Section**
-  - The about sections includes further information about the value of CI Student Resource with an inciting tagline of “Let’s do this together”, and focusing on the website being Student-Powered and keeping All in One Place
+#### About Section
+- The about sections includes further information about the value of CI Student Resource with an inciting tagline of “Let’s do this together”, and focusing on the website being Student-Powered and keeping All in One Place
 
-  - About Section - Website:
+- About Section - Website:
 
-    <img src="assets/images/readme/about-section-desktop.png" alt="About section on desktop" width="600"/>
+  <img src="assets/images/readme/about-section-desktop.png" alt="About section on desktop" width="600"/>
 
-  - About Section - Mobile:
+- About Section - Mobile:
 
-    <img src="assets/images/readme/about-section-mobile.png" alt="About section on mobile" width="200"/>
+  <img src="assets/images/readme/about-section-mobile.png" alt="About section on mobile" width="200"/>
 
-- **Mid-page Content Navigation**
-  - The mid-page content navigation section gives the user an overview of the content of the website as well an indications of the coming growth of the website with content coming soon
-  - The mid-page content navigation section is divided in Modules and Topics with only one module being available at the moment. Topic boxes include navigation links that takes the users to the relevant sections of the page
+#### Mid-page Content Navigation
+- The mid-page content navigation section gives the user an overview of the content of the website as well an indications of the coming growth of the website with content coming soon
+- The mid-page content navigation section is divided in Modules and Topics with only one module being available at the moment. Topic boxes include navigation links that takes the users to the relevant sections of the page
 
-  - Mid-page Content Navigation - Desktop:
+- Mid-page Content Navigation - Desktop:
     
-    <img src="assets/images/readme/shortcuts-and-commands.png" alt="Mid-page content navigation on desktop" width="600"/>
+  <img src="assets/images/readme/shortcuts-and-commands.png" alt="Mid-page content navigation on desktop" width="600"/>
 
-  - Mid-page Content Navigation - Mobile: 
+- Mid-page Content Navigation - Mobile: 
 
-    <img src="assets/images/readme/shortcuts-and-commands-mobile.png" alt="Mid-page content navigation on mobile" width="200"/>
+  <img src="assets/images/readme/shortcuts-and-commands-mobile.png" alt="Mid-page content navigation on mobile" width="200"/>
 
-- **Module Content Header**
-  - The Module Content Header introduces the users to topic content following the Module Content Header
+#### Module Content Header
+- The Module Content Header introduces the users to topic content following the Module Content Header
 
-  - Module Content Header - Desktop:
+- Module Content Header - Desktop:
 
-    <img src="assets/images/readme/module-content-header-desktop.png" alt="Module content header on desktop" width="600"/> 
+  <img src="assets/images/readme/module-content-header-desktop.png" alt="Module content header on desktop" width="600"/> 
 
-  - Module Content Header - Mobile
+- Module Content Header - Mobile
 
-    <img src="assets/images/readme/module-content-header-mobile.png" alt="Module content header on mobile" width="200"/>
+  <img src="assets/images/readme/module-content-header-mobile.png" alt="Module content header on mobile" width="200"/>
 
-- **Emmet Extension Content Section**
-  - The first topic of this website is for the Emmet Extension and includes one short introduction text, a looping and muted video snippet of the tool in use as well a table with the syntax explored in the module and their associated description.
+#### Emmet Extension Content Section
+- The first topic of this website is for the Emmet Extension and includes one short introduction text, a looping and muted video snippet of the tool in use as well a table with the syntax explored in the module and their associated description.
 
-  - Emmet Extension Content Section - Desktop:
+- Emmet Extension Content Section - Desktop:
 
-    <img src="assets/images/readme/emmet-desktop.png" alt="Emmet content section on desktop" width="600"/> 
+  <img src="assets/images/readme/emmet-desktop.png" alt="Emmet content section on desktop" width="600"/> 
 
-  - Emmet Extension Content Section - Mobile:
+- Emmet Extension Content Section - Mobile:
 
-    <img src="assets/images/readme/emmet-mobile.png" alt="Emmet content section on desktop on mobile" width="200"/>
+  <img src="assets/images/readme/emmet-mobile.png" alt="Emmet content section on desktop on mobile" width="200"/>
 
-- **Command Line Interface Content Section**
-  - The content of the Command Line Interface Content Section includes the same content structure as the one for the Emmet Extension, with a text introduction, a video snippet and a table with commands and descriptions
+#### Command Line Interface Content Section
+- The content of the Command Line Interface Content Section includes the same content structure as the one for the Emmet Extension, with a text introduction, a video snippet and a table with commands and descriptions
 
-  - Command Line Interface Content Section - Desktop:
+- Command Line Interface Content Section - Desktop:
 
-    <img src="assets/images/readme/cli-desktop.png" alt="Cli content section on desktop" width="600"/> 
+  <img src="assets/images/readme/cli-desktop.png" alt="Cli content section on desktop" width="600"/> 
 
-  - Command Line Interface Content Section - Mobile:
+- Command Line Interface Content Section - Mobile:
 
-    <img src="assets/images/readme/cli-mobile.png" alt="Cli content section on desktop on mobile" width="200"/>
+  <img src="assets/images/readme/cli-mobile.png" alt="Cli content section on desktop on mobile" width="200"/>
 
-- **Contribute Sign Up**
-   - This section entourages users to contribute to the website with a sign up form where the user can specify what module(s) and topic(s) they want to contribute. The form also includes a input field for the user to specify if the are/have been a student of the focus program of this website, Code Institute’s Diploma in Full Stack Development
-   - All fields are required to submit the form and the email input must be of a valid format
-   - The form input data is not linked to any destination in this iteration of the website so a Method attribute has not been specified 
+#### Contribute Sign Up
+- This section entourages users to contribute to the website with a sign up form where the user can specify what module(s) and topic(s) they want to contribute. The form also includes a input field for the user to specify if the are/have been a student of the focus program of this website, Code Institute’s Diploma in Full Stack Development
+- All fields are required to submit the form and the email input must be of a valid format
+- The form input data is not linked to any destination in this iteration of the website so a Method attribute has not been specified 
 
-   - Contribute Section - Desktop:
+- Contribute Section - Desktop:
 
-     <img src="assets/images/readme/contribute-desktop.png" alt="Sign up form for contributing to the ccontent desktop" width="600"/> 
+  <img src="assets/images/readme/contribute-desktop.png" alt="Sign up form for contributing to the ccontent desktop" width="600"/> 
 
-   - Contribute Section - Mobile:
+- Contribute Section - Mobile:
 
-     <img src="assets/images/readme/contribute-mobile.png" alt="Sign up form for contributing to the ccontent on mobile" width="200"/>
+  <img src="assets/images/readme/contribute-mobile.png" alt="Sign up form for contributing to the ccontent on mobile" width="200"/>
 
-- **Get in touch Section**
-   - This section encourages User Collaboration and to get in touch users have questions
-   - An Email Address has been included without mailto tags to avoid the that user computers opens up local email agents when clicked
-   - Social Media Icons & Links have been included at the end of the Get in Touch Section and all opens up in a new tab
+#### Get in touch Section
+- This section encourages User Collaboration and to get in touch users have questions
+- An Email Address has been included without mailto tags to avoid the that user computers opens up local email agents when clicked
+- Social Media Icons & Links have been included at the end of the Get in Touch Section and all opens up in a new tab
 
-   - Get in Touch Section - Desktop:
+- Get in Touch Section - Desktop:
 
-     <img src="assets/images/readme/getintouch-desktop.png" alt="Get in touch section in footer with email and social media icons and links opening in a new tab on desktop" width="600"/> 
+  <img src="assets/images/readme/getintouch-desktop.png" alt="Get in touch section in footer with email and social media icons and links opening in a new tab on desktop" width="600"/> 
 
-   - Get in Touch Section - Mobile:
+- Get in Touch Section - Mobile:
 
-     <img src="assets/images/readme/contribute-mobile.png" alt="Get in touch section in footer with email and social media icons and links opening in a new tab on desktop"  width="200"/>
+  <img src="assets/images/readme/contribute-mobile.png" alt="Get in touch section in footer with email and social media icons and links opening in a new tab on desktop"  width="200"/>
 
-**Features Left to Implement for Future Iterations**
+#### Features Left to Implement for Future Iterations
 - Full Lecture Overview (category tree) as an expanding Module tree down to lecture level. 
 - Expanded content formats sorted by module and topic. This could include Lecture Slides, Formatted Transcripts, CI Recommended Resources, and Student Recommended Resources for each section.
 - Expanding burger menu on mobile screens
@@ -157,12 +188,12 @@ The **3 main objectives** of this website can be summarized as followed:
      - Under Sourse, change Branch to Main and click Save
      - This will load a message above the Source, letting you know when the website has been published including a link your your website on Pages
 
-***[Here's a live lik to the website](https://loellarp.github.io/ci-student-resource/index.html)***
+## [Here's a live link to the website](https://loellarp.github.io/ci-student-resource/index.html)
 
-## Credit
+## Credits
 
-- Mocks
-  - Initial mocks of the website design on desktop and mobile were created with Balsamic
+- Wireframes
+  - Initial wireframes of the website design on desktop and mobile were created with Balsamic
 - Text content
   - All content in the topic tables used on the website has been collected from Lecture Slides and Lecture Transcripts from [Code Institute’s](https://codeinstitute.net/se/) program Diploma in Full Stack Software Development
   - Information for the topic introduction text has been collected from the same Lecture Slides and Lecture Transcripts as well as from wikipedia and the official website of the [Emmet Extension](https://emmet.io/) 
